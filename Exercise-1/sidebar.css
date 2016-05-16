@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  padding: 2rem;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin:0;
+}
+
+/*I reset margin to 0 on the body.*/
+
+header {
+  background: #0075bb;
+  color: #fff;
+}
+section {
+  background: #e7e7e7;
+  width: 75%;
+  float: left;
+}
+article {
+  background: white;
+  margin: 1rem;
+}
+aside {
+  background: pink;
+  width: 25%;
+  float: right;
+}
+header, article, .module {
+  padding: 1rem;
+}
+/*i removed all around padding from the section and added all around margin to the article*/
